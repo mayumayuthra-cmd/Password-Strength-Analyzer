@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #eef2ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background: white;
+    width: 420px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.container > p {
+    text-align: center;
+    color: #777;
+    margin-bottom: 25px;
+}
+
+.input-box {
+    display: flex;
+    gap: 8px;
+}
+
+input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+}
+
+button {
+    padding: 10px 15px;
+    background: #3659e3;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #243eb0;
+}
+
+.progress {
+    width: 100%;
+    height: 10px;
+    background: #ddd;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+#progress-bar {
+    height: 100%;
+    width: 0%;
+    border-radius: 10px;
+    background: red;
+}
+
+#strength {
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.checks p {
+    margin: 12px 0;
+    font-size: 14px;
+}
+
+.suggestion {
+    margin-top: 25px;
+    padding: 15px;
+    background: #f1f5ff;
+    border-radius: 10px;
+}
+
+.suggestion h3 {
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+
+#suggestion {
+    margin-bottom: 15px;
+    word-break: break-all;
+}
+
+.suggestion button {
+    width: 100%;
+}
